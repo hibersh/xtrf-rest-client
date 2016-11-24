@@ -1,7 +1,7 @@
 {
     "name": "drunomics/xtrf-rest-client",
     "description": "XTRF REST client library based on Guzzle",
-    "keywords": "XTRF, REST, Guzzle",
+    "keywords": ["XTRF", "REST", "Guzzle"],
     "homepage": "https://github.com/drunomics/xtrf-rest-client",
     "license": "GPL-2.0+",
     "authors": [

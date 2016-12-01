@@ -49,9 +49,9 @@ class XtrfApiIntegrationTest extends \PHPUnit_Framework_TestCase {
    * @var mixed[]
    */
   protected static $config = [
-    'base_uri' => '',
-    'username' => '',
-    'password' => '',
+    'base_uri' => 'https://68.168.111.88:8443/customer-api/',
+    'username' => 'C000159',
+    'password' => 'a_#uN0V8',
     // @todo Add tests for secure/insecure connection.
     'verify' => FALSE,
   ];

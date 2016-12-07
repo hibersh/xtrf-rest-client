@@ -1,6 +1,18 @@
 # XTRF REST client library
 REST client library based on Guzzle.
 
+Usage
+-----
+
+```
+$config = [
+  'base_uri' => 'http://example.com',
+  'username' => 'test',
+  'password' => 'test',
+];
+$adapter = \drunomics\XtrfClient\XtrfClient::create($config);
+```
+
 Notes on using swagger-UI:
 --------------------------
 

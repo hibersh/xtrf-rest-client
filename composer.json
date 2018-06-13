@@ -19,9 +19,9 @@
     },
     "require": {
         "php": ">=5.5",
-        "symfony/serializer": "~2.8",
-        "symfony/property-access": "~2.3|~3.0.0",
-        "guzzlehttp/guzzle": "~6.2.1"
+        "symfony/serializer": "~3.4.0",
+        "symfony/property-access": "~3.0.0",
+        "guzzlehttp/guzzle": "^6.2.1"
     },
     "require-dev": {
         "jane/open-api": "1.*",

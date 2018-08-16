@@ -7,11 +7,9 @@ class XtrfFile
     /**
      * @var string
      */
-    protected $deleteType;
     /**
      * @var string
      */
-    protected $deleteUrl;
     /**
      * @var XtrfFileStats
      */
@@ -35,37 +33,22 @@ class XtrfFile
     /**
      * @return string
      */
-    public function getDeleteType()
-    {
-        return $this->deleteType;
-    }
     /**
      * @param string $deleteType
      *
      * @return self
      */
-    public function setDeleteType($deleteType = null)
-    {
-        $this->deleteType = $deleteType;
-        return $this;
-    }
+
     /**
      * @return string
      */
-    public function getDeleteUrl()
-    {
-        return $this->deleteUrl;
-    }
+
     /**
      * @param string $deleteUrl
      *
      * @return self
      */
-    public function setDeleteUrl($deleteUrl = null)
-    {
-        $this->deleteUrl = $deleteUrl;
-        return $this;
-    }
+
     /**
      * @return XtrfFileStats
      */
